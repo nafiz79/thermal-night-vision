@@ -1,0 +1,6 @@
+stage,cost,notes
+CLAHE enhancement,<10 ms per image,CPU
+Weighted fusion incl. CLAHE,<10 ms per pair,CPU
+YOLOv8n inference 640 batch 1,20.3 ms per image (49.3 FPS),end-to-end over 200 images
+YOLOv8n inference (val pipeline),3.7 ms per image,GPU forward only
+Training 60 epochs batch 16,about 3.5 h per run,GTX 1070 8 GB
