@@ -1,0 +1,5 @@
+condition,map50,map50_95,ap50_person,ap50_bike,ap50_car,ms_per_image
+full image 640 (baseline),0.715,0.452,0.780,0.520,0.845,30
+SAHI 256 overlap 0.20,0.608,0.367,0.702,0.373,0.748,171
+SAHI 320 overlap 0.25,0.595,0.334,0.708,0.425,0.652,185
+SAHI 320 + full-image merge,0.621,0.366,0.736,0.442,0.684,219
