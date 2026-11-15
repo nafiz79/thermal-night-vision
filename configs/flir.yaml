@@ -1,0 +1,9 @@
+# Raw thermal set (FLIR ADAS v2, thermal frames replicated to 3 channels, 640x640)
+# Class order follows the thesis tables; make sure it matches your label files.
+path: C:/FLIR_FUSED
+train: images/train   # 10,742 images
+val: images/val       # 1,144 images
+names:
+  0: person
+  1: bike
+  2: car
