@@ -1,0 +1,8 @@
+# CLAHE thermal set: same file names, split and labels as flir.yaml; only CLAHE differs
+path: C:/FLIR_CLAHE
+train: images/train
+val: images/val
+names:
+  0: person
+  1: bike
+  2: car
