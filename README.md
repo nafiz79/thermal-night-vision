@@ -2,8 +2,10 @@
 
 **A controlled study of CLAHE and infrared–visible fusion with lightweight object detection**
 
+**Accepted for oral presentation at the 29th International Conference on Computer and Information Technology (IEEE ICCIT 2026).**
+
 B.Sc. thesis, Department of Computer Science & Engineering, Rajshahi University of Engineering & Technology (RUET), 2026
-Author: Nafees Ahamed · Supervisor: Farjana Parvin, Assistant Professor, CSE, RUET
+Authors: Nafees Ahamed and Farjana Parvin (Assistant Professor, CSE, RUET; thesis supervisor)
 
 ---
 
@@ -153,6 +155,17 @@ python src/fusion_eval.py --pairs pairs.csv --out results/tno
 Training and GPU evaluation: Windows laptop, NVIDIA GTX 1070 (8 GB), conda environment with PyTorch, Ultralytics and the YOLOv5 repository. OpenCV for CLAHE, scikit-image for PSNR/SSIM, piq for BRISQUE, SAHI for tiled inference.
 
 ## Citation
+
+Conference paper (accepted; proceedings citation will be added after publication):
+
+```
+N. Ahamed and F. Parvin, "Training-Free Enhancement for Thermal Night Vision: A Controlled
+Study of CLAHE and Infrared–Visible Fusion with Lightweight Object Detection," accepted for
+presentation at the 29th International Conference on Computer and Information Technology
+(ICCIT), Bangladesh, 2026.
+```
+
+Thesis:
 
 ```
 N. Ahamed, "Training-Free Enhancement for Thermal Night Vision: A Controlled Study of
